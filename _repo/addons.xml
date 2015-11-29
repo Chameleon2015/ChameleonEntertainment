@@ -15,7 +15,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.entertainmentlounge" name="Entertainment Lounge" version="0.0.15" provider-name="Chameleon-Builds">
+<addon id="plugin.video.entertainmentlounge" name="Entertainment Lounge" version="0.0.16" provider-name="Chameleon-Builds">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
 	<import addon="script.module.addon.common" />
