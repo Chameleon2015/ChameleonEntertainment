@@ -1,5 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
+<addon id="plugin.program.chameleonbuilds" name="Chameleon Builds" version="1.0.9" provider-name="Chameleon-Builds">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.addon.common" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Chameleon-Builds</summary>
+    <description lang="en">Easy Way To Install Your Chameleon build!</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
 <!--suppress ALL -->
 <addon id="plugin.video.1channel" version="2.5.67" name="1Channel" provider-name="Bstrdsmkr, tuxen, tknorris">
     <requires>
@@ -24,6 +39,27 @@
         <website>http://tvaddons.ag/</website>
 		<forum>http://forums.tvaddons.ag/forums/32-BSTRDSMKR-S-REPOSITORY</forum>
     </extension>
+</addon>
+
+<addon id="plugin.video.entertainmentlounge" name="Entertainment Lounge" version="0.0.35" provider-name="Chameleon-Builds">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.addon.common" />
+	<import addon="script.module.beautifulsoup" version="3.2.1"/>
+	<import addon="script.module.beautifulsoup4" />
+	<import addon="script.module.httplib2" />
+	<import addon="script.module.urlresolver"/>
+	<import addon="script.module.requests" />
+
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Entertainment Lounge</summary>
+    <description lang="en">Entertainment Lounge</description>
+    <platform>all</platform>
+  </extension>
 </addon>
 
 <!--suppress ALL -->
