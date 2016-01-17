@@ -41,7 +41,7 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.entertainmentlounge" name="Entertainment Lounge" version="0.0.38" provider-name="Chameleon-Builds">
+<addon id="plugin.video.entertainmentlounge" name="Entertainment Lounge" version="0.0.39" provider-name="Chameleon-Builds">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
 	<import addon="script.module.addon.common" />
@@ -58,6 +58,35 @@
   <extension point="xbmc.addon.metadata">
     <summary lang="en">Entertainment Lounge</summary>
     <description lang="en">Entertainment Lounge</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.MoneySports"
+       name="MoneySports"
+       version="2.0.3"
+       provider-name="Mark Money">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube" />
+    <import addon="script.module.urlresolver" optional="true"/>
+    <import addon="script.module.simplejson" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>The only add-on you need for all your sport needs...</summary>
+    <description>
+            The only add-on you need for all your sport needs... Supported By The Legends
+    </description>
     <platform>all</platform>
   </extension>
 </addon>
@@ -115,7 +144,7 @@
 
 <addon
   id="plugin.video.SportsDevil"
-  version="1.8.8.0"
+  version="2016.01.12"
   name="SportsDevil"
   provider-name="MaxMustermann">
   <requires>
