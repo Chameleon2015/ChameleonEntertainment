@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
-<addon id="plugin.video.youtube" name="YouTube" version="5.1.17" provider-name="Scorpion-Crew: Original Developer(bromix)">
+<addon id="plugin.video.youtube" name="YouTube" version="5.1.18" provider-name="Scorpion-Crew: Original Developer(bromix)">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0"/>
 	</requires>
